@@ -165,46 +165,6 @@ We invite extended abstract submissions related to (but not limited to) the foll
 
 <div class="organizer-item">
   <div class="organizer-photo">
-    <img src="https://safari.ethz.ch/wp-content/uploads/Foto-ZhihengYue.jpg" alt="Dr. Zhiheng Yue">
-  </div>
-  <div class="organizer-info">
-    <h4><a href="https://ihpcs.ethz.ch/people/person-detail.MzY4MzA0.TGlzdC8zOTQxLDc2NTU1MzE0Mg==.html" target="_blank">Dr. Zhiheng Yue</a></h4>
-    <div class="organizer-affiliation">ETH Zürich</div>
-    <p class="organizer-bio">Zhiheng Yue is a postdoctoral researcher at ETH Zurich, working with Prof. Onur Mutlu. He received the B.S. degree in electronic science and technology from the Beijing University of Posts and Telecommunications, Beijing, China, in 2017, and the M.S. degree in electrical and computer engineering from the University of Michigan, Ann Arbor, MI, USA, in 2019, and the Ph.D. degree in electronic science and technology from Tsinghua University, Beijing, in 2024. His current research interests include deep learning, Processing-in-memory, AI acceleration, 3D stacking, and very-large-scale-integration (VLSI) design.
-</p>
-    <div class="organizer-email">📧 <a href="mailto:zhiheng.yue@safari.ethz.ch">zhiheng.yue@safari.ethz.ch</a></div>
-  </div>
-</div>
-
-
-<div class="organizer-item">
-  <div class="organizer-photo">
-    <img src="https://media.licdn.com/dms/image/v2/C5603AQGJ837GRBjHWw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516896754946?e=1768435200&v=beta&t=RjcEOR5-dlvU1nbKvLzmBxOc6X3gvokNkA-VutRP9f8" alt="Dr. Mohammad Sadrosadati">
-  </div>
-  <div class="organizer-info">
-    <h4><a href="https://www.linkedin.com/in/mohammad-sadrosadati-23928a40" target="_blank">Dr. Mohammad Sadrosadati</a></h4>
-    <div class="organizer-affiliation">ETH Zürich</div>
-    <p class="organizer-bio">Mohammad Sadrosadati received the B.Sc., M.Sc., and Ph.D. degrees in Computer Engineering from Sharif University of Technology, Tehran, Iran, in 2012, 2014, and 2019, respectively. He spent one year, from April 2017 to April 2018, as an academic guest at ETH Zurich, hosted by Prof. Onur Mutlu during his Ph.D. program. He is currently a senior researcher and lecturer at ETH Zurich, working under the supervision of Prof. Onur Mutlu. His research interests are in the areas of heterogeneous computing, processing-in-memory, memory systems, and interconnection networks. Due to his achievements and impact on improving the energy efficiency of GPUs, he won the Khwarizmi Youth Award, one of the most prestigious awards, as the first laureate in 2020, to honor and embolden him to keep taking even bigger steps in his research career.
-</p>
-    <div class="organizer-email">📧 <a href="mailto:mohammad.sadrosadati@safari.ethz.ch">mohammad.sadrosadati@safari.ethz.ch</a></div>
-  </div>
-</div>
-
-<div class="organizer-item">
-  <div class="organizer-photo">
-    <img src="https://safari.ethz.ch/wp-content/uploads/photo-Geraldo.jpg" alt="Dr. Geraldo F. Oliveira">
-  </div>
-  <div class="organizer-info">
-    <h4><a href="https://geraldofojunior.github.io/" target="_blank">Dr. Geraldo F. Oliveira</a></h4>
-    <div class="organizer-affiliation">ETH Zürich</div>
-    <p class="organizer-bio">Geraldo F. Oliveira received a B.S. degree in computer science from the Federal University of Viçosa, Viçosa, Brazil, in 2015, an M.S. degree in computer science from the Federal University of Rio Grande do Sul, Porto Alegre, Brazil, in 2017, and a Ph.D. degree in computer science from ETH Zürich, Zürich, Switzerland, in 2025, advised by Prof. Onur Mutlu. His current research interests include system support for processing-in-memory and processing-using-memory architectures, data-centric accelerators for emerging applications, approximate computing, and emerging memory systems for consumer devices. He has several publications on these topics.</p>
-    <div class="organizer-email">📧 <a href="mailto:geraldod@safari.ethz.ch">geraldod@safari.ethz.ch</a></div>
-  </div>
-</div>
-
-
-<div class="organizer-item">
-  <div class="organizer-photo">
     <img src="https://kratos4.ethz.ch/wp-content/uploads/omutlu-crop.jpg" alt="Prof. Onur Mutlu">
   </div>
   <div class="organizer-info">
