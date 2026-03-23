@@ -1,5 +1,5 @@
-title: Sixth Workshop on Memory-Centric Computing Systems
-description: 6th Workshop on Memory-Centric Computing Systems (MCCSys) @ ICS 2026
+title: Seventh Workshop on Memory-Centric Computing Systems
+description: 7th Workshop on Memory-Centric Computing Systems (MCCSys) @ ICS 2026
 baseurl: ""
 url: "https://unrealismail.github.io/mccsys-ics26"
 
@@ -15,7 +15,7 @@ google_analytics:
 # Workshop details
 workshop:
   title: "MCCSys 2026"
-  full_title: "6th Workshop on Memory-Centric Computing Systems"
+  full_title: "7th Workshop on Memory-Centric Computing Systems"
   date: "July 6th, 2026"
   location: "Belfast, Northern Ireland"
   venue: ""

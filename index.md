@@ -20,8 +20,8 @@ layout: default
 <!-- Hero Section -->
 <div class="hero-section">
   <div class="hero-date">JULY 6<sup>th</sup>, 2026</div>
-  <h1 class="hero-title">MCCSys 2026</h1>
-  <h2 class="hero-subtitle">6th Workshop on Memory-Centric Computing Systems</h2>
+  <h1 class="hero-title">MCCSys@ICS'26</h1>
+  <h2 class="hero-subtitle">7th Workshop on Memory-Centric Computing Systems</h2>
   <p class="hero-conference">In conjunction with the ACM International Conference on Supercomputing 2026<br>(ICS 2026)</p>
   <p class="hero-location"> Belfast, Northern Ireland, United Kingdom</p>
   <div class="hero-buttons">
@@ -280,6 +280,6 @@ To be announced.
 ---
 
 <div class="footer-section">
-  <p>MCCSys@ICS'26 | 6th Workshop on Memory-Centric Computing Systems</p>
+  <p>MCCSys@ICS'26 | 7th Workshop on Memory-Centric Computing Systems</p>
   <p>In conjunction with <a href="https://dipsa-qub.github.io/ICS2026-webpage/" target="_blank">ICS 2026</a> | Belfast, Northern Ireland, UK</p>
 </div>
