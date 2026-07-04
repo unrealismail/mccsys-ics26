@@ -136,15 +136,15 @@
 
     <div class="speaker-item" id="speaker-2">
         <div class="speaker-photo">
-            <img src="assets/images/speaker-2.jpg" alt="Invited Speaker 2">
+            <img src="assets/images/photo-sunchae.jpg" alt="Invited Speaker 2">
         </div>
         <div class="speaker-info">
-            <h4><a href="#" target="_blank">Invited Speaker 2</a></h4>
-            <div class="speaker-affiliation">Affiliation</div>
-            <div class="speaker-talk-title">"Talk title to be announced"</div>
-            <p class="speaker-bio"><strong>Short Bio:</strong> To be announced.</p>
+            <h4><a href="#" target="_blank">Sunchae Kim</a></h4>
+            <div class="speaker-affiliation">University of Toronto</div>
+            <div class="speaker-talk-title">"SumcheckPIM: An Efficient HBM-Based PIM Architecture for Linear Complexity Zero Knowledge Proofs"</div>
+            <p class="speaker-bio"><strong>Short Bio:</strong> Sunchae Kim is an undergraduate student at University of Toronto engineering science program entering fourth year. His main interests are in security, privacy, and computer architecture. </p>
             <div class="speaker-abstract">
-                <strong>Abstract:</strong> To be announced.
+                <strong>Abstract:</strong> Zero-knowledge proofs (ZKPs) are emerging as a core technology for privacy-preserving computation. Despite steady progress in protocol and algorithm design, generating these proofs remains computationally intensive, driving growing interest in hardware acceleration for kernels such as number-theoretic transform (NTT) and multi-scalar multiplication (MSM). Among them, the sumcheck protocol offers a compelling alternative with 𝑂(𝑛) prover complexity compared to 𝑂(𝑛 log 𝑛) for NTT-based approaches, yet our analysis reveals its execution is fundamentally memory-bound, with severely underutilized compute. This characteristic demands a memory-centric acceleration strategy, in contrast to compute-centric approaches of prior work. To this end, we propose SumcheckPIM, an HBM-based processing-in-memory architecture optimized for the sumcheck protocol. SumcheckPIM introduces 256-bit modular arithmetic units at the bank level to support real-world field sizes, a Fiat-Shamir unit on the logic die for global accumulation and challenge generation, and an inter-bank processing unit enabling protocol completion without host interaction. We also propose a DRAM-aware folding scheme that maximizes row buffer locality through row packing and bank ping-ponging. Our design achieves this while maintaining JEDEC compliance with minimal modifications to existing commercial HBM-PIM architectures. We demonstrate that SumcheckPIM delivers both high performance and efficiency, achieving 5.3×–13.3× and 334.2×–361.1× speedup over GPU and CPU baselines, respectively.
             </div>
         </div>
     </div>
