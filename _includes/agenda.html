@@ -54,7 +54,7 @@
     <tr>
       <td class="time-cell">12:00 – 12:30</td>
       <td class="talk-cell">
-        <div class="talk-title">MVDRAM: Enabling GeMV Execution in Unmodified DRAM for Low-Bit LLM Acceleration</div>
+        <div class="talk-title">MVDRAM: Using Real DRAM to Accelerate Matrix-Vector Multiplication in LLM Inference</div>
         <div class="talk-speaker">Tatsuya Kubo</div>
       </td>
       <td class="materials-cell">—</td>
@@ -94,7 +94,7 @@
     <tr>
       <td class="time-cell">16:30 – 17:30</td>
       <td class="talk-cell">
-        <div class="talk-title">Memory-Centric Computing</div>
+        <div class="talk-title">Memory-Centric Computing: Solving Computing's Memory Problem</div>
         <div class="talk-speaker">Onur Mutlu</div>
       </td>
       <td class="materials-cell">—</td>
@@ -114,11 +114,6 @@
 ### Invited Speakers {#speakers}
 
 <div class="speakers-section">
-<!-- INVITED SPEAKER CARDS — for each speaker replace the photo (src), homepage (href),
-     name, affiliation, talk title, short bio, and abstract. Keep id="speaker-N" in sync
-     with the #speaker-N links in the program table above.
-     Photos go in assets/images/ (e.g. speaker-1.jpg); slides go in assets/slides/. -->
-
     <div class="speaker-item" id="speaker-1">
         <div class="speaker-photo">
             <img src="assets/images/photo-daehyeon.jpg" alt="Invited Speaker 1">
@@ -151,15 +146,16 @@
 
     <div class="speaker-item" id="speaker-3">
         <div class="speaker-photo">
-            <img src="assets/images/speaker-3.jpg" alt="Invited Speaker 3">
+            <img src="assets/images/photo-tatsuya.png" alt="Invited Speaker 3">
         </div>
         <div class="speaker-info">
-            <h4><a href="#" target="_blank">Invited Speaker 3</a></h4>
-            <div class="speaker-affiliation">Affiliation</div>
-            <div class="speaker-talk-title">"Talk title to be announced"</div>
-            <p class="speaker-bio"><strong>Short Bio:</strong> To be announced.</p>
+            <h4><a href="#" target="_blank">Tatsuya Kubo</a></h4>
+            <div class="speaker-affiliation">University of Tokyo</div>
+            <div class="speaker-talk-title">"MVDRAM: Using Real DRAM to Accelerate Matrix-Vector Multiplication in LLM Inference"</div>
+            <p class="speaker-bio"><strong>Short Bio:</strong> Tatsuya Kubo is a Ph.D. student at The University of Tokyo, advised by Prof. Shinya Takamaeda-Yamazaki. His research interests are in computer architecture and Processing-In-Memory, with a focus on exploiting the computational capabilities of commodity DRAM to accelerate AI and data-intensive workloads.</p>
             <div class="speaker-abstract">
-                <strong>Abstract:</strong> To be announced.
+                <strong>Abstract:</strong> Processing-Using-DRAM (PUD) repurposes existing DRAM circuitry to perform massively parallel bit-wise computation directly on the operands stored in each DRAM column, promising to mitigate the memory-bandwidth bottleneck of data-intensive workloads. However, because every general matrix-vector multiplication (GeMV) in large language model (LLM) inference consumes a new input activation vector produced by the processor, prior PUD designs would entail replicating and writing each vector into every DRAM column, making it difficult to achieve end-to-end speedup over processor-based execution.
+We present MVDRAM, a PUD method that delivers this end-to-end speedup by encoding the input directly into the PUD operation sequence rather than writing it into the DRAM array. MVDRAM combines two complementary techniques: ANDI-based multiplication eliminates input-vector writing by realizing the multiplication of a weight row by an input bit as a single RowCopy that copies either the weight row or an all-zero row according to the input bit, and bit-plane accumulation (BPA) restores full column parallelism under this row-wide multiplication by laying out the weight matrix as bit planes along DRAM rows. Hardware evaluation on real DDR4 modules with a custom FPGA controller demonstrates 1.33× speedup and 1.70× energy efficiency over a processor-based execution for 8-bit LLM inference.
             </div>
         </div>
     </div>
